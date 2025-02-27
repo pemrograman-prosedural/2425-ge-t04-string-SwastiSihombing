@@ -18,6 +18,7 @@
     ASCII2 = (char) ASCII;
     printf("%c", ASCII2);
   }
+  
   printf("\n");
 
   return 0;
