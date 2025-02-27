@@ -6,19 +6,16 @@
 #include <stdlib.h>
 
 int main(int _argv, char **_argc) {
-  char msk[60];
-  int i;
-
-  for(int i=0; i < 60; i++) {
-    scanf("%c", msk[i]);
-    if(msk[i] = "\n"){break;}
-  }
-
-  for (i = 0; i < strlen(msk) - 1; i++){
-    printf("%03d", msk[i]);
-  }
-
-  printf("013");
-
-  return 0;
-}
+ 
+    char str[21]; 
+    
+    printf("Masukkan teks: ");
+    scanf("%20[^"]", str); 
+    
+    for (int i = 0; str[i] != '\0'; i++) {
+        printf("%03d", str[i]);
+    }
+    
+    printf("013");
+    return 0;
+    }
