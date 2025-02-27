@@ -9,8 +9,6 @@ int main(int _argv, char **_argc) {
  
       char input[100];
       
-  
-      printf("Masukkan string: ");
       fgets(input, sizeof(input), stdin);
   
   
